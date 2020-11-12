@@ -1,0 +1,43 @@
+
+.form{
+    display: flex;
+    align-itemh1{
+    height: 95px;
+    background-color: cyan;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-column: 2;
+}
+input{
+    height: 50px;
+    width: 450px;
+}
+
+button{
+    background-color: #ff0000;
+    color: #ffffff;
+    font-family: 'Hepta Slab', serif;
+    border-radius: 0.3em;
+    border: none;
+    padding:10px;
+    float:left;
+}
+
+h1{
+    background-color: #61a3e6;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+    padding:30px;
+}
+
+body{
+    background-color: lightgray;
+}
+
+#searchname{
+    width: 70%;
+    box-sizing: border-box;
+    padding: 10px;
+}

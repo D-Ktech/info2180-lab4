@@ -1,6 +1,6 @@
 window.onload=function(){
-    let searcbutton=document.getElementById("sbtn");
-    searcbutton.addEventListener('click',function(a){
+    let searchbutton=document.getElementById("sbtn");
+    searchbutton.addEventListener('click',function(a){
         a.preventDefault();
         let httpreq=new XMLHttpRequest();
         let url="superheroes.php";
